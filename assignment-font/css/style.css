@@ -1,0 +1,143 @@
+/* chorus */
+@font-face {
+    font-family: chorusStyle;
+    src: url(../fonts/nightmare-pills-font/NightmarePills-BV2w.otf);
+}
+@font-face {
+    font-family: century;
+    src: url(../fonts/bridgnorth/BRIDGE.otf);
+}
+@font-face {
+    font-family: happy;
+    src: url(../fonts/happy-font/Happy.otf);
+}
+@font-face {
+    font-family: regret;
+    src: url(../fonts/regret/kg-no-regrets.ketch.otf);
+}
+@font-face {
+    font-family: fading;
+    src: url(../fonts/hot-sweat-font/Hotsweat-X5qj.ttf);
+}
+@font-face {
+    font-family: fading2;
+    src: url(../fonts/a-bite-font/ABite-DdxE.ttf);
+}
+@font-face {
+    font-family: love;
+    src: url(../fonts/vanessalovesyou/vanessalovesyou.ttf);
+}
+@font-face {
+    font-family: western;
+    src: url(../fonts/zabars/Zabars.ttf);
+}
+@font-face {
+    font-family: wavey;
+    src: url(../fonts/super-woobly-font/SuperWoobly-8MJlz.ttf);
+}
+@font-face {
+    font-family: "sadness";
+    src: url(../fonts/la-belle-aurore/LaBelleAurore-Regular.ttf);
+}
+html{
+    scroll-behavior: smooth;
+    padding: 1.5em;
+}
+body{
+    margin: 0px;
+    background-color: #f8f8f8;
+}
+h1, h2{
+    text-align: center;
+    font-family: western, sans-serif;
+    color: #3b3b6d;
+    letter-spacing: .1em;
+}
+h1{
+    font-size: 2em;
+}
+h2{
+    font-size: 1.5em;
+}
+.lyric{
+    margin: 1em 3.2em;
+    text-align: justify;
+    font-size: 1.2em;
+}
+.chorus{
+    font-family: "Single Day", cursive;
+    font-weight: 400;
+    font-style: normal;
+    color: #170bb5;
+}
+#verse5{
+    color: #BB3F3F;
+}
+.red{
+    font-family: inherit;
+    transform: rotate(40deg);
+}
+.time{
+    font-family: century, serif;
+    color:#006D5B;
+}
+.happy{
+    font-family: happy, sans-serif;
+    color:#FCE205	;
+}
+.sad{
+    font-family: regret, verdana,sans-serif;
+    color:#4B0082;
+}
+.memoryGone{
+    font-family: fading, sans-serif;
+    color:#EA8C21;
+    font-size: 1rem;
+}
+.music{
+    font-family: fading2, sans-serif;
+    color:#FF0000;
+    font-size: 1rem;
+    letter-spacing: .08em;
+    word-spacing: 0.13em;
+    transform: rotate(3deg);
+    padding-top:1em;
+}
+.love{
+    font-family: love, sans-serif;
+    color:#FF0000;
+}
+.old{
+    font-family: chorusStyle;
+    color: green;
+}
+.betrail{
+    font-family: wavey, sans-serif;
+    color: #1b4f72;
+}
+#verse4,
+#verse6{
+    color: #857557;
+    font-family: sadness, sans-serif;
+    font-size: 120%;
+    word-spacing: -3px;
+    line-height: 20px;
+}
+#verse5 .happy{
+    color: #edd858;
+}
+/*usless i think */
+.single-day-regular{
+    font-family: "Single Day", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+.bDeath{
+    color: black;
+}
+.bSad{
+    color:blue;
+}
+.religion{
+    color: #5bcdf7;
+}
